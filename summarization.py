@@ -6,6 +6,8 @@ from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from nltk.corpus import stopwords
 import numpy as np
 from scipy.spatial.distance import cosine
+import nltk
+nltk.download('stopwords')
 
 #Calculates cosine similarity
 def similarity(v1, v2):
