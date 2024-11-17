@@ -8,6 +8,7 @@ import numpy as np
 from scipy.spatial.distance import cosine
 import nltk
 nltk.download('stopwords')
+nltk.download('punkt_tab')
 
 #Calculates cosine similarity
 def similarity(v1, v2):
